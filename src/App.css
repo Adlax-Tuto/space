@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+a {
+	color: inherit; /* blue colors for links too */
+	text-decoration: inherit; /* no underline */
+}
+
+:root {
+	--clr-bkg-5: rgb(10, 10, 10);
+	--clr-violet-1: rgb(252, 232, 249);
+	--clr-violet-2: rgb(241, 162, 229);
+	--clr-violet-3: rgb(227, 70, 204);
+	--clr-violet-4: rgb(189, 28, 165);
+	--clr-violet-5: rgb(121, 18, 106);
+	--clr-violet-6: rgb(103, 15, 90);
+	--clr-violet-7: rgb(86, 13, 75);
+	--clr-violet-8: rgb(68, 10, 60);
+	--clr-violet-9: rgb(51, 8, 45);
+	--clr-violet-10: rgb(26, 4, 22);
+}
+
+body {
+	background-color: var(--clr-bkg-5);
+	color: var(--clr-violet-1);
+}
